@@ -1,0 +1,141 @@
+﻿<!DOCTIPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+	<script src="./js/index.js"> </script>
+	<title> Balboa </title>
+<head/>
+	<body>
+		
+		<a name="arriba"></a>
+		
+		<!-- Titulo de la pagina -->
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<h1 class="titulo"> Vasco Núñez de Balboa </h1>
+		
+		<!-- botones de menu de la pagina -->
+		<div class="boton">
+			<div id="botones1" class="botones1" onmouseover="entra1(this)" onmouseout="sale1(this)"><a href="./index.html"><u> Inicio </u></a></div>
+
+			<div id="botones2" class="botones2" onmouseover="entra2(this)" onmouseout="sale2(this)">
+				<a href="./juego.html">Juegos</a>
+			</div>
+			
+			<div id="botones3" class="botones3" onmouseover="entra3(this)" onmouseout="sale3(this)"><a href="./video.html"> Videos </a></div>
+			<div id="botones4" class="botones4" onmouseover="entra4(this)" onmouseout="sale4(this)"><a href="./login.html"> Iniciar sesion </a></div>
+			<div id="botones5" class="botones5" onmouseover="entra5(this)" onmouseout="sale5(this)"><a href="./soporte.html"> Soporte tecnico </a></div>
+		</div>
+		
+		
+		<!-- imagen de inicio -->
+		<div class="auto"> 
+			<!-- sacado de http://www.truco95.com/2012/07/imagenes-que-cambian-automaticamente.html -->
+			<script language="JavaScript1.1">
+				var specifyimage=new Array() //Imagenes
+				specifyimage[0]="./imagenes/auto/1.png"
+				specifyimage[1]="./imagenes/auto/2.png"
+				specifyimage[2]="./imagenes/auto/3.png"
+				specifyimage[3]="./imagenes/auto/4.png"
+				var delay=4000 //4 seconds
+
+				//Counter for array 
+				var count =1;
+
+				var cubeimage=new Array()
+				for (i=0;i<specifyimage.length;i++){
+				cubeimage[i]=new Image()
+				cubeimage[i].src=specifyimage[i]
+				}
+
+				function movecube(){
+				if (window.createPopup)
+				cube.filters[0].apply()
+				document.images.cube.src=cubeimage[count].src;
+				if (window.createPopup)
+				cube.filters[0].play()
+				count++;
+				if (count==cubeimage.length)
+				count=0;
+				setTimeout("movecube()",delay)
+				}
+
+				window.onload=new Function("setTimeout('movecube()',delay)")
+			</script>
+		<img class="auto1" src="./imagenes/auto/4.png" name="cube" border="0" style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle=&#39;PUSH&#39;)" /> 
+		</div>
+		
+		
+		<!-- parte de abajo de la foto -->
+		<div class="texto">
+			<img class="pergamino" src="./imagenes/intro.png"/>
+		
+			<div class="enlace">
+				<font SIZE="6%">Destacados</font>
+				<br/>
+				<br/>
+				<a class="enlaces1" href="http://es.wikipedia.org/wiki/Vasco_N%C3%BA%C3%B1ez_de_Balboa"><img src="./imagenes/icon.png"> Wikipedia </a>
+				<br/>
+				<a class="enlaces1" href="http://www.biografiasyvidas.com/biografia/b/balboa.htm"><img src="./imagenes/icon.png"> Biografias y vidas </a>
+				<br/>
+				<a class="enlaces1" href="http://cultura.elpais.com/cultura/2013/09/24/actualidad/1380016257_986090.html"><img src="./imagenes/icon.png"> El País  </a>
+				<br/>
+				<a class="enlaces1" href="http://www.nationalgeographic.com.es/articulo/historia/actualidad/8950/decapitacion_vasco_nunez_balboa.html"><img src="./imagenes/icon.png"> National Geographic </a>
+				<br/>
+				<a class="enlaces1" href="http://noticias.lainformacion.com/arte-cultura-y-espectaculos/historia/vasco-nunez-de-balboa-como-descubrir-el-oceano-pacifico-para-acabar-decapitado_kWDh0Cts9rpmfKeq86QVp/"><img src="./imagenes/icon.png"> La Informacion </a>
+	
+			
+			</div>
+			
+			<ul>
+			<a href="./origen.html"><li id="tie1" onmouseover="tiempo1(this)" onmouseout="tiemp1(this)" class="tiempo1">1475</li></a>
+			<br/>
+			<a href="./viaje.html"><li id="tie2" onmouseover="tiempo2(this)" onmouseout="tiemp2(this)" class="tiempo2">1500</li></a>
+			<br/>
+			<a href="./tierra.html"><li id="tie3" onmouseover="tiempo3(this)" onmouseout="tiemp3(this)" class="tiempo3">1509</li></a>
+			<br/>
+			<a href="./veragua.html"><li id="tie4" onmouseover="tiempo4(this)" onmouseout="tiemp4(this)" class="tiempo4">1511</li></a>
+			<br/>
+			<a href="./gobernar.html"><li id="tie5" onmouseover="tiempo5(this)" onmouseout="tiemp5(this)" class="tiempo5">1512</li></a>
+			<br/>
+			<a href="./mar.html"><li id="tie6" onmouseover="tiempo6(this)" onmouseout="tiemp6(this)" class="tiempo6">1513</li></a>
+			<br/>
+			<a href="./disputa.html"><li id="tie7" onmouseover="tiempo7(this)" onmouseout="tiemp7(this)" class="tiempo7">1514</li></a>
+			<br/>
+			<a href="./muerte.html"><li id="tie8" onmouseover="tiempo8(this)" onmouseout="tiemp8(this)" class="tiempo8"><FONT SIZE=2%>1516-1519</FONT></li></a>
+			</ul>
+		</div>
+		
+		<div >
+			<p class="ejecutor">&nbsp;&nbsp;&nbsp;&nbsp; Ejecución de Vasco Núñez de Balboa </p>
+		</div>
+		<img id="imagen" onmouseover="rota1(this)" onmouseout="vuelve1(this)" class="ejecutor1" src="./imagenes/ejecutor.jpg"/>
+		
+		<!-- boton para subir -->
+		<a href="#arriba">
+			<img class="subir" onmouseover="arriba(this)" onmouseout="arriba1(this)" src="./imagenes/arriba.png"/>
+		</a>
+		
+		<!-- pie de la pagina -->
+		<div class="pie">
+			<br/>
+			<br/> 
+			<a class="enlace1" href="https://twitter.com/?lang=es"> 
+				<img class="img" src="./imagenes/twiter.png" onmouseover="aparece(this)" onmouseout="desaparece(this)"/>
+			</a>
+			
+			<a class="enlace2" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0"> 
+				<img class="img" src="./imagenes/google.png" onmouseover="aparece1(this)" onmouseout="desaparece1(this)"/>
+			</a>
+			
+			<a class="enlace3" href="https://es-es.facebook.com/"> 
+				<img class="img" src="./imagenes/facebook.png" onmouseover="aparece2(this)" onmouseout="desaparece2(this)"/>
+			</a>
+			<br/>  
+			<br/> 
+			<font SIZE=2%>Carlos HTML© 2015 Privacy policy</font> 
+		</div>
+	</body>
+</html>

@@ -1,0 +1,116 @@
+﻿<!DOCTIPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/juego.css"/>
+	<script src="./js/juego.js"> </script>
+	<title> Balboa </title>
+<head/>
+	<body>
+		
+		<a name="arriba"></a>
+
+		<!-- enlaces de profundidad -->
+		<a href="./index.html" class="profundo1"><font size="2%" face="arial"> Inicio / </font></a>
+		<a href="./juego.html" class="profundo2"><font size="2%" face="arial"> Juego </font></a>
+		
+		<!-- Titulo de la pagina -->
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<h1 class="titulo"> La vida de Nuñez de Valboa </h1>
+		
+<!-- botones de menu de la pagina -->
+		<div class="boton">
+			<div id="botones1" class="botones1" onmouseover="entra1(this)" onmouseout="sale1(this)"><a class="menu" href="./index.html"> Inicio </a></div>
+
+			<div id="botones2" class="botones2" onmouseover="entra2(this)" onmouseout="sale2(this)">
+				<a class="menu" href="./juego.html"><u>Juegos</u></a>
+			</div>
+			
+			<div id="botones3" class="botones3" onmouseover="entra3(this)" onmouseout="sale3(this)"><a class="menu" href="./video.html"> Videos </a></div>
+			<div id="botones4" class="botones4" onmouseover="entra4(this)" onmouseout="sale4(this)"><a class="menu" href="./login.html"> Iniciar sesion </a></div>
+			<div id="botones5" class="botones5" onmouseover="entra5(this)" onmouseout="sale5(this)"><a class="menu" href="./soporte.html"> Soporte tecnico </a></div>
+		</div>
+		
+		<!-- texto -->
+		<div class="texto">
+			
+			<input class="botone" type="button" onclick='uno("this")' value="1ºpregunta" /> <p id="uno" class="uno"> </p>
+			</br>
+			</br>
+			<input class="botone" type="button" onclick='dos("this")' value="2ºpregunta" /> <p id="dos" class="dos"> </p>
+			</br>
+			</br>
+			<input class="botone" type="button" onclick='tres("this")' value="3ºpregunta" /> <p id="tres" class="tres"> </p>
+			</br>
+			</br>
+			<input class="botone" type="button" onclick='cuatro("this")' value="4ºpregunta" /> <p id="cuatro" class="cuatro"> </p>
+			</br>
+			</br>
+			<input class="botone" type="button" onclick='cinco("this")' value="5ºpregunta" /> <p id="cinco" class="cinco"> </p>
+			</br>
+			</br>
+			<input class="botone" type="button" onclick='seis("this")' value="Resolver" /> <p class="seiss"> Tu nota:</p><p id="seis" class="seis"> </p>
+			
+			<script>
+				var array=["0","1","2","3","4",];
+				
+				function uno(caja) {caja=prompt("¿Cuando nacio Nuñez de Balboa? 1. 1475 o 2. 1476");
+					if (caja == 1){window.alert("Tu opcion es 1475"); var dato; dato=document.getElementById("uno");dato.innerHTML="1475";array[0]=2}
+					else {window.alert("Tu opcion es 1476");var dato; dato=document.getElementById("uno");dato.innerHTML="1476";array[0]=0}}
+				
+				
+				function dos(caja) {caja=prompt("¿Cuando viajó Nuñez de Balboa a la India? 1. 1503 o 2. 1500");
+					if (caja == 1){window.alert("Tu opcion es 1503"); var dato; dato=document.getElementById("dos");dato.innerHTML="1503";array[1]=0}
+					else {window.alert("Tu opcion es 1500");var dato; dato=document.getElementById("dos");dato.innerHTML="1500";array[1]=2}}
+					
+				function tres(caja) {caja=prompt("¿Cuando fue la lucha por el poder de Veragua? 1. 1511 o 2. 1512");
+					if (caja == 1){window.alert("Tu opcion es 1511"); var dato; dato=document.getElementById("tres");dato.innerHTML="1511";array[2]=2}
+					else {window.alert("Tu opcion es 1512");var dato; dato=document.getElementById("tres");dato.innerHTML="1512";array[2]=0}}
+					
+				function cuatro(caja) {caja=prompt("¿Cuando se descubrio el mar del sur? 1. 1514 o 2. 1513");
+					if (caja == 1){window.alert("Tu opcion es 1514"); var dato; dato=document.getElementById("cuatro");dato.innerHTML="1514";array[3]=0}
+					else {window.alert("Tu opcion es 1513");var dato; dato=document.getElementById("cuatro");dato.innerHTML="1513";array[3]=2}}
+					
+				function cinco(caja) {caja=prompt("¿Cuando murio nuñez de balboa? 1. 1519 o 2. 1516");
+					if (caja == 1){window.alert("Tu opcion es 1519"); var dato; dato=document.getElementById("cinco");dato.innerHTML="1519";array[4]=2}
+					else {window.alert("Tu opcion es 1516");var dato; dato=document.getElementById("cinco");dato.innerHTML="1516";array[4]=0}}
+
+				function seis(caja) {
+				var suma;
+				var caja;
+				suma=0;
+				suma=suma+array[0]+array[1]+array[2]+array[3]+array[4];
+				caja=document.getElementById("seis");
+				caja.innerHTML=suma}
+				
+           			
+				
+			</script>
+			
+		</div>
+
+
+		<!-- pie de la pagina -->
+		<div class="pie">
+			<br/>
+			<br/> 
+			<a class="enlace1" href="https://twitter.com/?lang=es"> 
+				<img class="img" src="./imagenes/twiter.png" onmouseover="aparece(this)" onmouseout="desaparece(this)"/>
+			</a>
+			
+			<a class="enlace2" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0"> 
+				<img class="img" src="./imagenes/google.png" onmouseover="aparece1(this)" onmouseout="desaparece1(this)"/>
+			</a>
+			
+			<a class="enlace3" href="https://es-es.facebook.com/"> 
+				<img class="img" src="./imagenes/facebook.png" onmouseover="aparece2(this)" onmouseout="desaparece2(this)"/>
+			</a>
+			<br/>  
+			<br/> 
+			<font SIZE=2%>Carlos HTML© 2015 Privacy policy</font> 
+		</div>
+		</a>
+	</body>
+</html>
