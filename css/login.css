@@ -1,0 +1,33 @@
+﻿/* imagen de fondo */
+body{background-image: url("../imagenes/fondo.jpg");}
+
+/* Titutlo de la pagina */
+.titulo{color:E1D73E;position:absolute;left:37%;top:13%}
+
+/* botones del menu */
+.boton{width:45%;height:10%;position:absolute;left:35%;top:25%}
+.botones1{width:10%;height:40%;position:absolute;left:0%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones2{width:10%;height:40%;position:absolute;left:12%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones3{width:11%;height:38%;position:absolute;left:25%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones4{width:16%;height:38%;position:absolute;left:38%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones5{width:18%;height:38%;position:absolute;left:58%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+
+
+a.menu:link{color:White;text-decoration:none}
+a.menu:hover{color:White;text-decoration:none}
+a.menu:visited{color:White;text-decoration:none}
+a.menu:active{color:White;text-decoration:none}
+
+/* enlaces de profundidad*/
+.profundo1{width:8%;height:5%;position:absolute;left:2%;top:5%}
+.profundo2{width:25%;height:5%;position:absolute;left:5%;top:5%}
+a.hola:link{color:7C7C7C}
+a.hola:hover{color:7C7C7C}
+a.hola:visited{color:7C7C7C}
+a.hola:active{color:7C7C7C}
+
+/* caja del registro */
+.caja{width:70.6%;height:50%;position:absolute;left:16%;top:40%;background-color:ded3bf}
+.registro{width:40%;height:80%;position:absolute;left:2%;top:8%;border:solid 2px}
+.inicio{width:40%;height:80%;position:absolute;left:57%;top:8%;border:solid 2px}
+.inicio1{color:624235}

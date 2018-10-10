@@ -1,0 +1,56 @@
+﻿/* imagen de fondo */
+body{background-image: url("../imagenes/fondo.jpg");}
+
+/* Titutlo de la pagina */
+.titulo{color:E1D73E;position:absolute;left:40%;top:13%}
+
+/* botones del menu */
+.boton{width:45%;height:10%;position:absolute;left:35%;top:25%}
+.botones1{width:10%;height:40%;position:absolute;left:0%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones2{width:10%;height:40%;position:absolute;left:12%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones3{width:11%;height:38%;position:absolute;left:25%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones4{width:16%;height:38%;position:absolute;left:38%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones5{width:18%;height:38%;position:absolute;left:58%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+
+a:link{color:White;text-decoration:none}
+a:hover{color:White;text-decoration:none}
+a:visited{color:White;text-decoration:none}
+a:active{color:White;text-decoration:none}
+
+
+/* Imagen que cambia sola*/
+.auto{width:70.45%;height:70.85%;border:solid 2px;position:absolute;left:16%;top:40%}
+.auto1{width:100%;height:100%;}
+
+/*parte de abajo de la foto */
+.texto{width:70.6%;height:100%;position:absolute;left:16%;top:111.3%;background-color:ded3bf}
+.pergamino{width:70%;height:98%;position:absolute;left:40%;top:0%}
+
+.tiempo1{color:c17353;width:8%;height:5%;position:absolute;left:2%;top:10%;background-color:624235;transition:width 0.2s}
+.tiempo2{color:624235;width:8%;height:5%;position:absolute;left:2%;top:15%;background-color:c17353;transition:width 0.2s}
+.tiempo3{color:c17353;width:8%;height:5%;position:absolute;left:2%;top:20%;background-color:624235;transition:width 0.2s}
+.tiempo4{color:624235;width:8%;height:5%;position:absolute;left:2%;top:25%;background-color:c17353;transition:width 0.2s}
+.tiempo5{color:c17353;width:8%;height:5%;position:absolute;left:2%;top:30%;background-color:624235;transition:width 0.2s}
+.tiempo6{color:624235;width:8%;height:5%;position:absolute;left:2%;top:35%;background-color:c17353;transition:width 0.2s}
+.tiempo7{color:c17353;width:8%;height:5%;position:absolute;left:2%;top:40%;background-color:624235;transition:width 0.2s}
+.tiempo8{color:624235;width:8%;height:5%;position:absolute;left:2%;top:44.8%;background-color:c17353;transition:width 0.2s}
+
+.ejecutor1{border:solid 2px;width:25%;height:25%;position:absolute;left:20%;top:170%;transition:1.5s}
+.ejecutor{border:solid 2px;width:20%;height:3%;position:absolute;left:22%;top:180%;}
+
+.enlace {color:373737;width:20%;height:43%;position:relative;left:22%;top:10%;background-color:transparent}
+
+a.enlaces1:link{color:624235;text-decoration:none}
+a.enlaces1:hover{color:c17353;text-decoration:none}
+a.enlaces1:visited{color:c17353;text-decoration:none}
+a.enlaces1:active{color:c17353;text-decoration:none}
+
+/* pie de lapagina */
+.enlace1{position:absolute;left:42%;top:0%}
+.enlace2{position:absolute;left:47%;top:0%}
+.enlace3{position:absolute;left:52%;top:0%}
+.pie{width:70.6%;height:15%;position:absolute;left:16%;top:211.4%;background-color:ded3bf;text-align:center}
+.img {width:100%;height:50%}
+
+/* enlace para subir arriba*/
+.subir{position:fixed;left:90%;top:80%}

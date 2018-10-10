@@ -1,0 +1,45 @@
+﻿/* imagen de fondo */
+body{background-image: url("../imagenes/fondo.jpg");}
+
+/* enlaces de profundidad*/
+.profundo1{width:8%;height:5%;position:absolute;left:2%;top:5%}
+.profundo2{width:25%;height:5%;position:absolute;left:5%;top:5%}
+a.bot:link{color:7C7C7C}
+a.bot:hover{color:7C7C7C}
+a.bot:visited{color:7C7C7C}
+a.bot:active{color:7C7C7C}
+
+/* Titutlo de la pagina */
+.titulo{color:E1D73E;position:absolute;left:43%;top:13%}
+
+/* botones del menu */
+.boton{width:45%;height:10%;position:absolute;left:35%;top:25%}
+.botones1{width:10%;height:40%;position:absolute;left:0%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones2{width:10%;height:40%;position:absolute;left:12%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones3{width:11%;height:38%;position:absolute;left:25%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones4{width:16%;height:38%;position:absolute;left:38%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+.botones5{width:18%;height:38%;position:absolute;left:58%;top:0%;margin:15px;color:white;text-align:center;padding-top:1.5%;padding-bottom:1%;}
+
+a:link{color:White;text-decoration:none}
+a:hover{color:White;text-decoration:none}
+a:visited{color:White;text-decoration:none}
+a:active{color:White;text-decoration:none}
+
+
+/*datos */
+.texto{width:70.6%;height:165%;position:absolute;left:16%;top:40%;background-color:ded3bf}
+
+.registro{position:absolute;left:30%;}
+.registro2{position:absolute;left:16%;top:53%}
+.envio{position:absolute;left:46%;top:87%}
+
+.foto1{width:100%;height:30%}
+/* pie de lapagina */
+.enlace1{position:absolute;left:42%;top:0%}
+.enlace2{position:absolute;left:47%;top:0%}
+.enlace3{position:absolute;left:52%;top:0%}
+.pie{width:70.6%;height:15%;position:absolute;left:16%;top:205.2%;background-color:ded3bf;text-align:center}
+.img {width:100%;height:50%}
+
+/* enlace para subir arriba*/
+.subir{position:fixed;left:90%;top:80%}
